@@ -1,22 +1,9 @@
-// To use this script, follow these steps:
-// 1. Make sure you have two files in this Apps Script: this file ('Code.gs') and a 'sidebar.html' file.
-// 2. Go to https://beta.openai.com/account/api-keys and copy your API key.
-// 3. Paste your API key into the code below, replacing the "___" in the "apiKey" variable.
+// Go to https://beta.openai.com/account/api-keys and copy your API key.
+// Paste your API key into the code below, replacing the "___" in the "apiKey" variable.
 
 var apiKey = "sk-______________________________________________";
 
-// 4. Click on "Save project".
-// 5. Click "Run" and grant the necessary permissions when prompted.
-// 6. Go to the Google Doc you added this scipt to.
-// 7. Click "Extensions" in the top menu and select the name of this script.
-// 8. A sidebar will open on the right. Select the text you want to rewrite, then click "Rewrite text" in the sidebar.
-
-// Enjoy the magic!
-
-// In case of issues:
-// If you click on "Rewrite text" and nothing happens, it's either because you didn't add the apiKey above, or because you didn't grant the right permissions to this Apps Script.
-// Try logging into this script from a different Google account, then click "Run" and it should ask you for permissions. Grant the permissions, then try using the script again in the Google Doc.
-// For further guidance, contact andre@quizmanity.org.
+// Follow the instructions in the 'readme' file
 
 
 function onOpen(e) {
