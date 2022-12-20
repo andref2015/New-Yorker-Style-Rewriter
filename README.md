@@ -5,8 +5,8 @@ This is a Google Apps Script that allows you to rewrite selected text in a Googl
 
 To use this script, follow these steps:
 
-SETUP FILES
-1. Open a Google Doc
+SETUP FILES  
+1. Open a Google Doc. 
 2. Select "Extensions" in the top menu, then choose "Apps Script."
 3. Rename the Apps Script Project to something like "New Yorker Style Rewriter."
 4. From the top left menu, select "Add a File (+)" and choose HTML.
@@ -16,13 +16,13 @@ SETUP FILES
 
 ════════ ⋆★⋆ ════════
 
-SETUP YOUR OPENAI API KEY
+SETUP YOUR OPENAI API KEY  
 8. Go to https://beta.openai.com/account/api-keys and copy your API key.  
 9. Paste your API key into the "apiKey" variable in 'Code.gs'. 
 
 ════════ ⋆★⋆ ════════
 
-RUN THE SCRIPT
+RUN THE SCRIPT  
 10. Click on "Save project". 
 11. In the 'Code.gs' file, click "Run" in the menu at the top and grant the necessary permissions when prompted.  
 12. Go to the Google Doc you added this script to.  
