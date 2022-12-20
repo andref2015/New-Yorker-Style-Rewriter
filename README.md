@@ -7,7 +7,7 @@ To use this script, follow these steps:
 3. Rename the Apps Script to something like "AI Rewriter."
 4. From the top left menu, select "Add a File (+)" and choose HTML.
 5. Name the new file 'sidebar.'
-6. Make sure you have two files in your Apps Script: a 'code.gs' file and a 'sidebar.html' file.
+6. Make sure you have two files in your Apps Script: a 'Code.gs' file and a 'sidebar.html' file.
 7. Copy and paste the code from the two files in this repository into the two Apps Script files
 8. Go to https://beta.openai.com/account/api-keys and copy your API key.
 9. Paste your API key into the "apiKey" variable in code.gs
