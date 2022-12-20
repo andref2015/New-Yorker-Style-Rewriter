@@ -21,7 +21,7 @@ To use this script, follow these steps:
 
 ════════ ⋆★⋆ ════════
 
-Enjoy the magic! <3
+Enjoy the magic! ❤️
 
 ════════ ⋆★⋆ ════════
 
