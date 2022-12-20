@@ -10,7 +10,7 @@ To use this script, follow these steps:
 6. Make sure you have two files in your Apps Script: a 'Code.gs' file and a 'sidebar.html' file.
 7. Copy and paste the code from the two files in this repository into the two Apps Script files
 8. Go to https://beta.openai.com/account/api-keys and copy your API key.
-9. Paste your API key into the "apiKey" variable in code.gs
+9. Paste your API key into the "apiKey" variable in 'Code.gs'
 10. Click on "Save project".
 11. Click "Run" and grant the necessary permissions when prompted.
 12. Go to the Google Doc you added this scipt to.
