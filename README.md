@@ -23,7 +23,7 @@ SETUP YOUR OPENAI API KEY
 ════════ ⋆★⋆ ════════
 
 RUN THE SCRIPT
-10. Click on "Save project".
+10. Click on "Save project"
 11. In the 'Code.gs' file, click "Run" in the menu at the top and grant the necessary permissions when prompted.
 12. Go to the Google Doc you added this script to.
 13. Click "Extensions" in the top menu and select the name of this script.
