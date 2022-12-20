@@ -9,13 +9,13 @@ var apiKey = "sk-______________________________________________";
 function onOpen(e) {
   // Add a menu with some items, some separators, and a sub-menu.
   DocumentApp.getUi().createAddonMenu()
-      .addItem('Rewrite Text', 'openSidebar')
+      .addItem('New Yorker Style Rewriter', 'openSidebar')
       .addToUi();
 }
 
 function openSidebar() {
   var html = HtmlService.createHtmlOutputFromFile('sidebar')
-      .setTitle('Rewrite Text')
+      .setTitle('New Yorker Style Rewriter')
       .setWidth(300);
   DocumentApp.getUi().showSidebar(html);
 }
