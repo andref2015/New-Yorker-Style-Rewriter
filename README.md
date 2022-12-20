@@ -1,6 +1,8 @@
 # New Yorker Style Rewriter
 This is a Google Apps Script that allows you to rewrite selected text in a Google Doc using OpenAI's API. Simply select the text you want to rewrite, open the script's sidebar, and choose a writing style to apply to the text. The rewritten text will be displayed in the sidebar for you to review and insert into your document.
 
+<img width="615" alt="Screenshot 2022-12-20 at 19 49 15" src="https://user-images.githubusercontent.com/36070121/208744487-9214e40b-5cde-4e8f-ad48-d4a8608726b3.png">
+
 To use this script, follow these steps:
 1. Open a Google Doc
 2. Select "Extensions" in the top menu, then choose "Apps Script."
