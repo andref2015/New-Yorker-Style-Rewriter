@@ -1,0 +1,84 @@
+<!-- Name this file 'sidebar.html' -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <script>
+      // Zinsser is the default
+      writing_style = "William Zinsser";
+      // When the selection changes, update the "writing_style" variable.
+      $("#styleList").change(function() {
+        writing_style = $(this).val();
+      });
+     
+      // Create a ListBox element.
+      var listBox = document.createElement("select");
+      listBox.id = "styleList";
+      listBox.name = "styles";
+      
+      // Add options to the ListBox.
+      var williamZinsserOption = document.createElement("option");
+      williamZinsserOption.value = "William Zinsser";
+      williamZinsserOption.text = "William Zinsser";
+      listBox.appendChild(williamZinsserOption);
+
+      var newYorkerOption = document.createElement("option");
+      newYorkerOption.value = "the New Yorker";
+      newYorkerOption.text = "New Yorker";
+      listBox.appendChild(newYorkerOption);
+
+      var steveJobsOption = document.createElement("option");
+      steveJobsOption.value = "Steve Jobs";
+      steveJobsOption.text = "Steve Jobs";
+      listBox.appendChild(steveJobsOption);
+
+      var elonMuskOption = document.createElement("option");
+      elonMuskOption.value = "Elon Musk";
+      elonMuskOption.text = "Elon Musk";
+      listBox.appendChild(elonMuskOption);
+
+      var paulGrahamOption = document.createElement("option");
+      paulGrahamOption.value = "Paul Graham";
+      paulGrahamOption.text = "Paul Graham";
+      listBox.appendChild(paulGrahamOption);
+
+      var derekSiversOption = document.createElement("option");
+      derekSiversOption.value = "Derek Sivers";
+      derekSiversOption.text = "Derek Sivers";
+      listBox.appendChild(derekSiversOption);
+
+      var senecaOption = document.createElement("option");
+      senecaOption.value = "Seneca";
+      senecaOption.text = "Seneca";
+      listBox.appendChild(senecaOption);
+
+      var oscarWildeOption = document.createElement("option");
+      oscarWildeOption.value = "Oscar Wilde";
+      oscarWildeOption.text = "Oscar Wilde";
+      listBox.appendChild(oscarWildeOption);
+
+      var donaldTrumpOption = document.createElement("option");
+      donaldTrumpOption.value = "Donald Trump";
+      donaldTrumpOption.text = "Donald Trump";
+      listBox.appendChild(donaldTrumpOption);
+
+      // Add the ListBox to the page.
+      document.body.appendChild(listBox);
+
+      function showOutput(output) {
+        document.getElementById('output').innerHTML = output;
+        document.getElementById("writing_style").innerHTML = writing_style;
+      }
+    </script>
+    
+    <button onclick="google.script.run.withSuccessHandler(showOutput).getText(writing_style)">
+      Rewrite Text
+    </button>
+    <div id="output"></div>
+  </body>
+</html>
