@@ -3,7 +3,11 @@ This is a Google Apps Script that allows you to rewrite selected text in a Googl
 
 ![Twitter_NewYorker](https://user-images.githubusercontent.com/36070121/208753506-93e2b366-7471-4b0c-bded-6c453be7fd44.png)
 
-To use this script, follow these steps:
+════════ ⋆★⋆ ════════
+
+To set up this script, you do NOT need to be a tech pro. No coding skills are required. I didn't even know how to code myself when I asked ChatGPT to write the code for me. 
+
+Here's how to get started:
 
 SETUP FILES  
 1. Open a Google Doc. 
