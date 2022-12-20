@@ -17,8 +17,8 @@ SETUP FILES
 ════════ ⋆★⋆ ════════
 
 SETUP YOUR OPENAI API KEY  
-8. Go to https://beta.openai.com/account/api-keys and copy your API key.  
-9. Paste your API key into the "apiKey" variable in 'Code.gs'. 
+  8. Go to https://beta.openai.com/account/api-keys and copy your API key.  
+  9. Paste your API key into the "apiKey" variable in 'Code.gs'. 
 
 ════════ ⋆★⋆ ════════
 
