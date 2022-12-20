@@ -5,7 +5,7 @@ This is a Google Apps Script that allows you to rewrite selected text in a Googl
 
 ════════ ⋆★⋆ ════════
 
-To set up this script, you do NOT need to be a tech pro. No coding skills are required. I didn't even know how to code myself when I asked ChatGPT to write the code for me. 
+To set up this script, you do NOT need to be a tech pro. No coding skills are required — I didn't even know how to code myself when I asked ChatGPT to write the code for me. That's right, I was too lazy to learn how to code, so I just asked a computer to do it for me.
 
 Here's how to get started:
 
