@@ -3,17 +3,21 @@ This is a Google Apps Script that allows you to rewrite selected text in a Googl
 
 To use this script, follow these steps:
 1. Open a Google Doc
-2. Click on "Extensions" in the top menu and select "Apps Script"
-3. Rename the Apps Script as you wish, for example "AI Rewriter"
-4. Make sure you have two files in your Apps Script: a 'code.gs' file and a 'sidebar.html' file.
-5. Copy and paste the code from the two files in this repository into the two Apps Script files
-6. Go to https://beta.openai.com/account/api-keys and copy your API key.
-7. Paste your API key into the "apiKey" variable in code.gs
-8. Click on "Save project".
-9. Click "Run" and grant the necessary permissions when prompted.
-10. Go to the Google Doc you added this scipt to.
-11. Click "Extensions" in the top menu and select the name of this script.
-12. A sidebar will open on the right. Select the text you want to rewrite, then click "Rewrite text" in the sidebar.
+2. Select "Extensions" in the top menu, then choose "Apps Script."
+3. Rename the Apps Script to something like "AI Rewriter."
+4. From the top left menu, select "Add a File (+)" and choose HTML.
+5. Name the new file 'sidebar.'
+6. Make sure you have two files in your Apps Script: a 'code.gs' file and a 'sidebar.html' file.
+7. Copy and paste the code from the two files in this repository into the two Apps Script files
+8. Go to https://beta.openai.com/account/api-keys and copy your API key.
+9. Paste your API key into the "apiKey" variable in code.gs
+10. Click on "Save project".
+11. Click "Run" and grant the necessary permissions when prompted.
+12. Go to the Google Doc you added this scipt to.
+13. Click "Extensions" in the top menu and select the name of this script.
+14. A sidebar will open on the right. Select the text you want to rewrite, then click "Rewrite text" in the sidebar.
+
+Enjoy the magic! <3
 
 In case of issues:
 -If you click on "Rewrite text" and nothing happens, it's either because you didn't add the apiKey above, or because you didn't grant the right permissions to this Apps Script.
