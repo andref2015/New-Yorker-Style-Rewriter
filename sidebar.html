@@ -9,8 +9,8 @@
   </head>
   <body>
     <script>
-      // Zinsser is the default
-      writing_style = "William Zinsser";
+      // The New Yorker is the default option
+      writing_style = "the New Yorker";
       // When the selection changes, update the "writing_style" variable.
       $("#styleList").change(function() {
         writing_style = $(this).val();
@@ -22,15 +22,15 @@
       listBox.name = "styles";
       
       // Add options to the ListBox.
-      var williamZinsserOption = document.createElement("option");
-      williamZinsserOption.value = "William Zinsser";
-      williamZinsserOption.text = "William Zinsser";
-      listBox.appendChild(williamZinsserOption);
-
       var newYorkerOption = document.createElement("option");
       newYorkerOption.value = "the New Yorker";
       newYorkerOption.text = "New Yorker";
       listBox.appendChild(newYorkerOption);
+      
+      var williamZinsserOption = document.createElement("option");
+      williamZinsserOption.value = "William Zinsser";
+      williamZinsserOption.text = "William Zinsser";
+      listBox.appendChild(williamZinsserOption);
 
       var steveJobsOption = document.createElement("option");
       steveJobsOption.value = "Steve Jobs";
