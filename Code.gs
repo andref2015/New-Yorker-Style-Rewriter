@@ -1,3 +1,5 @@
+// Code.gs
+
 // Go to https://beta.openai.com/account/api-keys and copy your API key.
 // Paste your API key into the code below, replacing the "___" in the "apiKey" variable.
 
