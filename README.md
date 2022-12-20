@@ -26,6 +26,7 @@ Enjoy the magic! <3
 ══════════ ⋆★⋆ ══════════
 
 In case of issues:
-1. If you click on "Rewrite text" and nothing happens, it's either because you didn't add the apiKey above, or because you didn't grant the right permissions to this Apps Script.
-2. Try logging into this script from a different Google account, then click "Run" and it should ask you for permissions. Grant the permissions, then try using the script again in the Google Doc.
-3. For further guidance, contact andre@quizmanity.org.
+1. If you click on the "Rewrite" button and nothing happens, it's either because you didn't add the apiKey in the Code.gs file, or because you didn't grant the right permissions to this Apps Script.
+2. Try logging into this script from a different Google account, then click "Run" in the Code.gs file and it should ask you for permissions. Grant the permissions, then try using the script again in the Google Doc.
+3. Try refreshing the webpage of the Google Doc and reopening the script by selecting "Extensions" in the top menu and then the name you gave to the Apps Script Project.
+4. For further guidance, contact andre@quizmanity.org.
