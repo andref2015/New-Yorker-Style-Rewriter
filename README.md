@@ -19,9 +19,11 @@ To use this script, follow these steps:
 13. Click "Extensions" in the top menu and select the name of this script.
 14. A sidebar will open on the right. Select the text you want to rewrite, then click "Rewrite" in the sidebar.
 
+══════════ ⋆★⋆ ══════════
 
 Enjoy the magic! <3
 
+══════════ ⋆★⋆ ══════════
 
 In case of issues:
 1. If you click on "Rewrite text" and nothing happens, it's either because you didn't add the apiKey above, or because you didn't grant the right permissions to this Apps Script.
