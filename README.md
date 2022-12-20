@@ -14,7 +14,7 @@ To use this script, follow these steps:
 8. Go to https://beta.openai.com/account/api-keys and copy your API key.
 9. Paste your API key into the "apiKey" variable in 'Code.gs'
 10. Click on "Save project".
-11. In 'Code.gs', click "Run" in the menu at the top and grant the necessary permissions when prompted.
+11. In the 'Code.gs' file, click "Run" in the menu at the top and grant the necessary permissions when prompted.
 12. Go to the Google Doc you added this scipt to.
 13. Click "Extensions" in the top menu and select the name of this script.
 14. A sidebar will open on the right. Select the text you want to rewrite, then click "Rewrite text" in the sidebar.
