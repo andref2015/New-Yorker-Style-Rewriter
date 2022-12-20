@@ -6,7 +6,7 @@ This is a Google Apps Script that allows you to rewrite selected text in a Googl
 To use this script, follow these steps:
 1. Open a Google Doc
 2. Select "Extensions" in the top menu, then choose "Apps Script."
-3. Rename the Apps Script to something like "New Yorker Style Rewriter."
+3. Rename the Apps Script Project to something like "New Yorker Style Rewriter."
 4. From the top left menu, select "Add a File (+)" and choose HTML.
 5. Name the new file 'sidebar.'
 6. Make sure you have two files in your Apps Script: a 'Code.gs' file and a 'sidebar.html' file.
