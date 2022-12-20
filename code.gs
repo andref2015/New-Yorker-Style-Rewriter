@@ -2,6 +2,7 @@
 // 1. Make sure you have two files in this Apps Script: this file (code.gs) and a 'sidebar.html' file.
 // 2. Go to https://beta.openai.com/account/api-keys and copy your API key.
 // 3. Paste your API key into the code below, replacing the "___" in the "apiKey" variable.
+
 var apiKey = "sk-______________________________________________";
 
 // 4. Click on "Save project".
