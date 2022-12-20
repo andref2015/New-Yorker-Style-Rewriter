@@ -17,17 +17,17 @@ SETUP FILES
 ════════ ⋆★⋆ ════════
 
 SETUP YOUR OPENAI API KEY  
-  8. Go to https://beta.openai.com/account/api-keys and copy your API key.  
-  9. Paste your API key into the "apiKey" variable in 'Code.gs'. 
+1. Go to https://beta.openai.com/account/api-keys and copy your API key.  
+2. Paste your API key into the "apiKey" variable in 'Code.gs'. 
 
 ════════ ⋆★⋆ ════════
 
 RUN THE SCRIPT  
-10. Click on "Save project". 
-11. In the 'Code.gs' file, click "Run" in the menu at the top and grant the necessary permissions when prompted.  
-12. Go to the Google Doc you added this script to.  
-13. Click "Extensions" in the top menu and select the name of this script.  
-14. A sidebar will open on the right. Select the text you want to rewrite, then click "Rewrite" in the sidebar.  
+1. Click on "Save project". 
+2. In the 'Code.gs' file, click "Run" in the menu at the top and grant the necessary permissions when prompted.  
+3. Go to the Google Doc you added this script to.  
+4. Click "Extensions" in the top menu and select the name of this script.  
+5. A sidebar will open on the right. Select the text you want to rewrite, then click "Rewrite" in the sidebar.  
 
 ════════ ⋆★⋆ ════════
 
