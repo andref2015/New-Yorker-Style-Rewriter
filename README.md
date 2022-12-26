@@ -41,9 +41,9 @@ Enjoy the magic! ❤️
 
 ════════ ⋆★⋆ ════════
 
-In case of issues:
-1. If you click on the "Rewrite" button and nothing happens, it's either because you didn't add the apiKey in the Code.gs file, or because you didn't grant the right permissions to this Apps Script, or because you're not in Incognito mode.
-   -> Go into Incognito Mode on your browser and try again
-2. Try logging into this script from a different Google account, then click "Run" in the Code.gs file and it should ask you for permissions. Grant the permissions, then try using the script again in the Google Doc.  
-3. Try refreshing the webpage of the Google Doc and reopening the script by selecting "Extensions" in the top menu and then the name you gave to the Apps Script Project.  
-4. For further guidance, contact andre@quizmanity.org.  
+In the event of any issues, try these steps to troubleshoot:
+1. Make sure you have correctly added your API key to the "Code.gs" file and granted the necessary permissions to the Apps Script.
+2. If the "Rewrite" button is not functioning, try using the script in an Incognito window.
+3. If the issue persists, try logging in to the script from a different Google account and granting permissions again.
+4. If the issue still persists, try refreshing the webpage and reopening the script.
+5. If you need further assistance, don't hesitate to contact andre@quizmanity.org for guidance.
