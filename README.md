@@ -1,6 +1,3 @@
-# Warning
-It appears that this Script is currently only working properly on one particular Google account. I still have to determine why this is happening. I would recommend not installing this script just yet.
-
 # New Yorker Style Rewriter
 This is a Google Apps Script that allows you to rewrite selected text in a Google Doc using OpenAI's API. Simply select the text you want to rewrite, open the script's sidebar, and choose a writing style to apply to the text. The rewritten text will be displayed in the sidebar for you to review and insert into your document.
 
@@ -45,7 +42,8 @@ Enjoy the magic! ❤️
 ════════ ⋆★⋆ ════════
 
 In case of issues:
-1. If you click on the "Rewrite" button and nothing happens, it's either because you didn't add the apiKey in the Code.gs file, or because you didn't grant the right permissions to this Apps Script.  
+1. If you click on the "Rewrite" button and nothing happens, it's either because you didn't add the apiKey in the Code.gs file, or because you didn't grant the right permissions to this Apps Script, or because you're not in Incognito mode.
+   -> Go into Incognito Mode on your browser and try again
 2. Try logging into this script from a different Google account, then click "Run" in the Code.gs file and it should ask you for permissions. Grant the permissions, then try using the script again in the Google Doc.  
 3. Try refreshing the webpage of the Google Doc and reopening the script by selecting "Extensions" in the top menu and then the name you gave to the Apps Script Project.  
 4. For further guidance, contact andre@quizmanity.org.  
