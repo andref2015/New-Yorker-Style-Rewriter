@@ -43,7 +43,7 @@ Enjoy the magic! ❤️
 
 In the event of any issues, try these steps to troubleshoot:
 1. Make sure you have correctly added your API key to the "Code.gs" file and granted the necessary permissions to the Apps Script.
-2. If the "Rewrite" button is not functioning, try using the script in an Incognito window.
+2. If the "Rewrite" button is not functioning, try using the script in an Incognito window (or Sign Out of all your Google accounts, then login again).
 3. If the issue persists, try logging in to the script from a different Google account and granting permissions again.
 4. If the issue still persists, try refreshing the webpage and reopening the script.
 5. If you need further assistance, don't hesitate to contact andre@quizmanity.org for guidance.
