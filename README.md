@@ -15,11 +15,11 @@ Here's how to get started:
 
 SETUP FILES  
 1. Open a Google Doc and select "Extensions" in the top menu, then choose "Apps Script."
-3. Rename the Apps Script Project to something like "New Yorker Style Rewriter."
-4. From the top left menu, select "Add a File (+)" and choose HTML.
-5. Name the new file 'sidebar.'
-6. Make sure you have two files in your Apps Script: a 'Code.gs' file and a 'sidebar.html' file.
-7. Copy and paste the code from the two files in this repository ([Code.gs](https://github.com/andref2015/New-Yorker-Style-Rewriter/blob/main/Code.gs) and [sidebar.html](https://github.com/andref2015/New-Yorker-Style-Rewriter/blob/main/sidebar.html)) into the two Apps Script files.
+2. Rename the Apps Script Project to something like "New Yorker Style Rewriter."
+3. From the top left menu, select "Add a File (+)" and choose HTML.
+4. Name the new file 'sidebar.'
+5. Make sure you have two files in your Apps Script: a 'Code.gs' file and a 'sidebar.html' file.
+6. Copy and paste the code from the two files in this repository ([Code.gs](https://github.com/andref2015/New-Yorker-Style-Rewriter/blob/main/Code.gs) and [sidebar.html](https://github.com/andref2015/New-Yorker-Style-Rewriter/blob/main/sidebar.html)) into the two Apps Script files.
 
 ════════ ⋆★⋆ ════════
 
@@ -49,12 +49,12 @@ I recommend trying out the style of William Zinsser. ;)
 
 In the event of any issues, try these steps to troubleshoot:
 1. Make sure you have correctly added your API key to the "Code.gs" file 
-2. Check that you granted the necessary permissions to the Apps Script by making the code in main.gs "Run".
-3. Verify that you have added a payment method for OpenAI by going to https://beta.openai.com/account/billing/payment-methods.
+2. Verify that you have added a payment method for OpenAI by going to https://beta.openai.com/account/billing/payment-methods.
+3. Ensure that you have granted the required permissions to the Apps Script by running the code in main.gs.
 4. If the "Rewrite" button is not functioning, try:
   -Refreshing the webpage and reopening the script,
   -Using the script in an Incognito window,
-  -Signing Out of all your Google accounts, then login again
+  -Signing Out of all your Google accounts, then login again.
 
 ════════ ⋆★⋆ ════════
 
