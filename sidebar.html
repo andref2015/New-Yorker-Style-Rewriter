@@ -11,6 +11,7 @@
     <script>
       // The New Yorker is the default option
       writing_style = "the New Yorker";
+      
       // When the selection changes, update the "writing_style" variable.
       $("#styleList").change(function() {
         writing_style = $(this).val();
@@ -21,7 +22,7 @@
       listBox.id = "styleList";
       listBox.name = "styles";
       
-      // Add options to the ListBox.
+      // Add writers to the list.
       var newYorkerOption = document.createElement("option");
       newYorkerOption.value = "the New Yorker";
       newYorkerOption.text = "New Yorker";
@@ -36,11 +37,6 @@
       steveJobsOption.value = "Steve Jobs";
       steveJobsOption.text = "Steve Jobs";
       listBox.appendChild(steveJobsOption);
-
-      var elonMuskOption = document.createElement("option");
-      elonMuskOption.value = "Elon Musk";
-      elonMuskOption.text = "Elon Musk";
-      listBox.appendChild(elonMuskOption);
 
       var paulGrahamOption = document.createElement("option");
       paulGrahamOption.value = "Paul Graham";
