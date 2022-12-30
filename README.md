@@ -40,7 +40,7 @@ RUN THE SCRIPT
 
 ════════ ⋆★⋆ ════════
 
-❤🪄
+🪄
 Enjoy the magic! 
 
 I recommend trying out the style of William Zinsser. ;)
@@ -58,9 +58,4 @@ In the event of any issues, try these steps to troubleshoot:
 
 ════════ ⋆★⋆ ════════
 
-EMAIL ME
-
-Don't hesitate to contact me at andre@quizmanity.org for help.
-
-
-Happy rewriting!
+If any issues arise, don't hesitate to reach out to me at andre@quizmanity.org.
