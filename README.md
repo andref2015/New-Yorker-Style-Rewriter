@@ -17,7 +17,7 @@ SETUP FILES
 4. From the top left menu, select "Add a File (+)" and choose HTML.
 5. Name the new file 'sidebar.'
 6. Make sure you have two files in your Apps Script: a 'Code.gs' file and a 'sidebar.html' file.
-7. Copy and paste the code from the two files in this repository into the two Apps Script files.
+7. Copy and paste the code from the two files in this repository ([Code.gs](https://github.com/andref2015/New-Yorker-Style-Rewriter/blob/main/Code.gs) and [sidebar.html](https://github.com/andref2015/New-Yorker-Style-Rewriter/blob/main/sidebar.html)) into the two Apps Script files.
 
 ════════ ⋆★⋆ ════════
 
