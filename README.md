@@ -5,7 +5,9 @@ This is an Apps Script that allows you to rewrite selected text in a Google Doc 
 
 ════════ ⋆★⋆ ════════
 
-But fear not, you need not be a tech pro to set this script up. No coding skills are required — I didn't even know how to code myself when I asked ChatGPT to write the code for me. That's right, I was too lazy to learn how to code, so I just asked a computer to do it for me. While the script itself is free, you will have to pay (small) fees to OpenAI for using GPT-3.
+But fear not, you need not be a tech pro to set this script up. No coding skills are required — I didn't even know how to code myself when I asked ChatGPT to write the code for me. That's right, I was too lazy to learn how to code, so I just asked a computer to do it for me. 
+
+While the script itself is free, you will have to pay (small) fees to OpenAI for using GPT-3.
 
 ════════ ⋆★⋆ ════════
 
@@ -40,7 +42,8 @@ RUN THE SCRIPT
 
 
 Enjoy the magic! ❤️
-I highly recommend using the style of William Zinsser. ;)
+
+I recommend trying out the style of William Zinsser. ;)
 
 ════════ ⋆★⋆ ════════
 
@@ -57,3 +60,5 @@ In the event of any issues, try these steps to troubleshoot:
 
 EMAIL ME
 Don't hesitate to contact me at andre@quizmanity.org for help.
+
+Happy rewriting!
