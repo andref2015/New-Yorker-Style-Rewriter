@@ -37,6 +37,7 @@ RUN THE SCRIPT
 4. Click "Extensions" in the top menu and select the name of this script.  
 5. A sidebar will open on the right. Select the text you want to rewrite, then click "Rewrite" in the sidebar.  
 
+Please note that this script must be set up for every individual Google Doc that you want to use it in. 
 
 ════════ ⋆★⋆ ════════
 
