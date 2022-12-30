@@ -52,10 +52,10 @@ In the event of any issues, try these steps to troubleshoot:
 1. Make sure you have correctly added your API key to the "Code.gs" file 
 2. Verify that you have added a payment method for OpenAI by going to https://beta.openai.com/account/billing/payment-methods.
 3. Ensure that you have granted the required permissions to the Apps Script by running the code in main.gs.
-4. If the "Rewrite" button is not functioning, try:
-  -Refreshing the webpage and reopening the script,
-  -Using the script in an Incognito window,
-  -Signing Out of all your Google accounts, then login again.
+4. If the "Rewrite" button is not functioning, try:  
+  -Refreshing the webpage and reopening the script,  
+  -Using the script in an Incognito window,  
+  -Signing Out of all your Google accounts, then login again.  
 
 ════════ ⋆★⋆ ════════
 
