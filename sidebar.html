@@ -9,14 +9,6 @@
   </head>
   <body>
     <script>
-      // The New Yorker is the default option
-      writing_style = "the New Yorker";
-      
-      // When the selection changes, update the "writing_style" variable.
-      $("#styleList").change(function() {
-        writing_style = $(this).val();
-      });
-     
       // Create a ListBox element.
       var listBox = document.createElement("select");
       listBox.id = "styleList";
@@ -30,7 +22,7 @@
       newYorkerOption.value = "the New Yorker";
       newYorkerOption.text = "New Yorker";
       listBox.appendChild(newYorkerOption);
-      
+
       var williamZinsserOption = document.createElement("option");
       williamZinsserOption.value = "William Zinsser";
       williamZinsserOption.text = "William Zinsser";
@@ -40,21 +32,6 @@
       steveJobsOption.value = "Steve Jobs";
       steveJobsOption.text = "Steve Jobs";
       listBox.appendChild(steveJobsOption);
-
-      var paulGrahamOption = document.createElement("option");
-      paulGrahamOption.value = "Paul Graham";
-      paulGrahamOption.text = "Paul Graham";
-      listBox.appendChild(paulGrahamOption);
-
-      var derekSiversOption = document.createElement("option");
-      derekSiversOption.value = "Derek Sivers";
-      derekSiversOption.text = "Derek Sivers";
-      listBox.appendChild(derekSiversOption);
-
-      var senecaOption = document.createElement("option");
-      senecaOption.value = "Seneca";
-      senecaOption.text = "Seneca";
-      listBox.appendChild(senecaOption);
 
       var oscarWildeOption = document.createElement("option");
       oscarWildeOption.value = "Oscar Wilde";
@@ -69,6 +46,13 @@
       // Add the ListBox to the page.
       document.body.appendChild(listBox);
 
+      // The New Yorker is the default option
+      writing_style = "the New Yorker";
+      // When the selection changes, update the "writing_style" variable.
+      $("#styleList").change(function() {
+        writing_style = $(this).val();
+      });
+
       function showOutput(output) {
         document.getElementById('output').innerHTML = output;
         document.getElementById("writing_style").innerHTML = writing_style;
@@ -76,7 +60,7 @@
     </script>
     
     <button onclick="google.script.run.withSuccessHandler(showOutput).getText(writing_style)">
-      Rewrite
+      Rewrite Text
     </button>
     <div id="output"></div>
   </body>
